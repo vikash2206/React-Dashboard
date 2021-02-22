@@ -1,6 +1,6 @@
 .dash-container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 100%;
   }
   
@@ -20,7 +20,8 @@
   }
   
   .piech {
-    margin: 40px;
+    margin: 167px;
+   
     width: 35%;
   } 
   
@@ -46,7 +47,7 @@
   }
   
   .linegph{
-    margin: 40px 15px;
+    margin: 40px -167px;
   }
   
   @media screen and (max-width: 1000px){
@@ -66,7 +67,5 @@
     }
   }
   
-  .linegph {
-    margin: 40px 5px;
-  }
+  
   
