@@ -6,8 +6,10 @@ const Form = ({ submitForm }) => {
   return (
    <div>
 
+  <h1 className="text-center user-profile">User Profile</h1>
 
-      <form>
+
+      <form>  
         <label>
         fullname
         </label><br/>
@@ -16,7 +18,7 @@ const Form = ({ submitForm }) => {
         email
         </label><br/>
         <input type="email"/> <br/>
-        <label><br/>
+        <label>
         mobile numer
         </label><br/>
         <input type="number"/> <br/>
