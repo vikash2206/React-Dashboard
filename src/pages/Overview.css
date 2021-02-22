@@ -1,0 +1,72 @@
+.dash-container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  
+  .dash-title {
+    padding: 0px 25px;
+    background-color: #e8e8e86b;
+    width: 100%;
+    /* height: 85px; */
+  }
+  
+  .dash-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 163px;
+  }
+  
+  .piech {
+    margin: 40px;
+    width: 35%;
+  } 
+  
+  .chart-padding {
+    padding: 0px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  
+  .line-graph-padding{
+    padding: 0px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  
+  /* .dash-card-1{
+      width: 25rem;
+  } */
+  
+  .dash-card-2{
+    padding: 0px;
+    margin: 40px 15px;
+  }
+  
+  .linegph{
+    margin: 40px 15px;
+  }
+  
+  @media screen and (max-width: 1000px){
+    .dash-content {
+      flex-direction: column;
+      padding-left: 55px;
+      
+    }
+  
+    .piech {
+      margin: 5px;
+      width: 95%;
+    }
+  
+    .dash-container {
+      width: 85%;
+    }
+  }
+  
+  .linegph {
+    margin: 40px 5px;
+  }
+  
