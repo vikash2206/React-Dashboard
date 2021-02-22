@@ -2,7 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Overview from './pages/Overview';
-import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './pages/Reports';
+import { Reports } from './pages/Reports';
 import Team from './pages/Team';
 import Form from './pages/form';
 
